@@ -17,42 +17,46 @@
 <body>
     <div class="d-flex" id="wrapper">
         <!-- Sidebar -->
-            <div class="bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading text-center py-6 primary-text fs-14 fw-bold text-uppercase border-bottom"><i
-                        class="fas fa-globe fa-2x"></i><br> Bhutan <i style="color:#FFC857;font-family:cursive;">Travel</i> Light</div>
+        <div class="bg-white" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center py-6 primary-text fs-14 fw-bold text-uppercase border-bottom"><i
+                  class="fas fa-globe fa-2x"></i><br> Bhutan <i style="color:#FFC857;font-family:cursive;">Travel</i> Light</div>
 
-                <div class="dropdown list-group list-group-flush my-3">
-                    <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text active" type="button" data-bs-toggle="dropdown"><i
-                        class="fas fa-home fa-4x' style='color:#000000'" ></i >
-                        Home</button>
-                    <ul class="dropdown-menu border border-warning">
-                        <li><button class="dropdown-item" type="button">Dashboard</button></li>
-                    </ul>
+          <div class="dropdown list-group list-group-flush my-3">
+              <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text active" type="button" data-bs-toggle="dropdown"><i
+                  class="fas fa-home fa-4x' style='color:#000000'" ></i >
+                  <a style="text-decoration:none ; color:black;" href="index.html" >Home</a>
+                  </button>
+              <ul class="dropdown-menu border border-warning">
+                  <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;"  href="index.html">Dashboard</a></button></li>
+              </ul>
 
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-user-tie"></i> Profile</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-user"></i> Human Resources & Help</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-book-reader"></i> Rules & Regulations</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-th-list"></i> Inventory & Property</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-bell"></i> Notifications & Calendar</a>
+              <a href="profile.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                  class="fas fa-user-tie"></i> Profile</a>
+                  <a href="publications.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                      class="fas fa-book"></i> Publications</a>
+              <a href="help.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                  class="fas fa-user"></i> Human Resources & Help</a>
+              <a href="rules.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                  class="fas fa-book-reader"></i> Rules & Regulations</a>
+              <a href="inventory.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                  class="fas fa-th-list"></i> Inventory & Property</a>
+              <a href="calendar.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                  class="fas fa-bell"></i> Calendar</a>
 
-                    <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text fw-bold" type="button" data-bs-toggle="dropdown"><i
-                        class="fas fa-star"></i>
-                        Services</button>
-                    <ul class="dropdown-menu">
-                        <li><button class="dropdown-item" type="button">Staff Task & Tour</button></li>
-                        <li><button class="dropdown-item" type="button">Leave Application Form</button></li>
-                        <li><button class="dropdown-item" type="button">Promotion & Resignation</button></li>
-                    </ul>
+              <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text fw-bold" type="button" data-bs-toggle="dropdown"><i
+                  class="fas fa-star"></i>
+                  Services</button>
+              <ul class="dropdown-menu">
+                  <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="task1.html">Staff Task & Tour</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="leave.html">Leave Application Form</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="resignations.html">Resignation</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="promotion.html">Promotion</a></button></li>
+              </ul>
 
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
-                            class="fas fa-power-off me-2"></i>Logout</a>
-                </div>
-            </div>
+              <a href="/login/logout.html" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
+                      class="fas fa-power-off me-2"></i>Logout</a>
+          </div>
+      </div>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
@@ -60,7 +64,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
-                    <h2 class="fs-2 m-0">Dashboard</h2>
+                    <h2 class="fs-2 m-0">Human Resource & Help</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -70,6 +74,38 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav  mb-2 mb-lg-0" >
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown"
+                              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fas fa-duotone fa-bell"></i>
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">February 10, 2020</div>
+                                  <span class="fw-none">Registration for training workshop on biodiversity, Biopiracy and its relevance to Tourism</a></li>
+                                      <hr class="divider">
+                              <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">April 06, 2021</div>
+                                  <span class="fw-none">Tourist Guide readiness assessment test - Phase III </a>
+                              </li>
+                              <hr class="divider">
+                              <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">December 18, 2022</div>
+                                  <span class="fw-none">Third Phase of Tour Guide Assessment Test</a>
+                              </li>
+                              <hr class="divider">
+                              <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">March 06, 2022</div>
+                                  <span class="fw-none">Re-readiness assessment test for Phase II guide</a>
+                              </li>
+                              <hr class="divider">
+                              <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">June 30, 2022</div>
+                                  <span class="fw-none">Notification on violiation of TCB certified accomodations phase III</a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+                
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown"
@@ -77,17 +113,17 @@
                                 <i class="fas fa-user me-2"></i>Sonam Thinley
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Profile</a>
+                                <li><a class="dropdown-item" href="profile.html">Profile</a>
 
-                                <li><a class="dropdown-item" href="#">Change Password
+                                <li><a class="dropdown-item" href="/login/changepsswd.html">Change Password
                                     <i class="fas fa-sync"></i></a></li>
                                 </a></li>
 
-                                <li><a class="dropdown-item" href="#">Help
+                                <li><a class="dropdown-item" href="help.html">Help
                                     <i class="fas fa-question-circle"></i></a></li>
                                 </a></li>
 
-                                <li><a class="dropdown-item" href="#">Logout
+                                <li><a class="dropdown-item" href="/login/logout.html">Logout
                                     <i class="fas fa-sign-out-alt"></i></a></li>
 
                                 </a></li>
@@ -97,11 +133,195 @@
                 </div>
             </nav>
 
-            
+            <div class="card" style="margin-left: 20px; margin-right: 20px; background-color: rgb(220, 249, 224);">
+                <h5 class="card-header">Bhutan Tourism Product Development Guidelines</h5>
+                <div class="card-body">
+                  <p class="card-text fw-bold">Basic principles of product development</p><hr>
+                  <p class="card-text">Some of the principles that may be considered while developing tourism products are:</p>
+                  <ol>
+                    <li>The development of tourism products to contribute in realizing the
+                        goal of Gross National Happiness (GNH).</li>
+                    <li>Accord importance to key principles of sustainable tourism
+                        development</li>
+                    <li>Consider conducting basic market research while developing
+                        proposals.</li>
+                    <li>Promote tourism circuits, zones or clusters of attractions</li>
+                  </ol><br>
+                  <p class="card-text fw-bold">Applicability</p><hr>
+                  <p class="card-text">This guideline shall apply to individuals, CSOs, public and private
+                    organizations and agencies interested in the development of tourism
+                    products.</p>
+                    <br>
+                  <p class="card-text fw-bold">General Procedure</p><hr>
+                  <p class="card-text">TThe following steps need to be followed if the proponent desires
+                    know, before developing a detailed proposal, whether the
+                    proposed product is permitted:</p>
+                    <ol>
+                        <li>Submission of Expression of Interest (EOI)</li>
+                        <li>Review of EOI by TCB</li>
+                        <li>Submission of detailed proposal</li>
+                        <li>Review of proposal</li>
+                        <li>Business Licensing</li>
+                    </ol>
+                </div>
+            </div><br>
+
+            <div class="card" style="margin-left: 20px; margin-right: 20px; background-color: rgb(220, 249, 224);">
+                <h5 class="card-header">Checklist: Applying for tour guide license</h5>
+                <div class="card-body">
+                  <p class="card-text fw-bold">Description</p><hr>
+                  <p class="card-text">Requirement:</p>
+                  <ol>
+                    <li>Class twelve or equivalent (Submit	mark sheets & school leaving certificate)</li>
+                    <li>Minimum	18	years	of	age	</li>
+                    <li>Valid	Bhutanese	citizenship	identity	card	</li>
+                    <li>Valid	security	clearance	certificate</li>
+                    <li>Valid	medical	certificate</li>
+                    <li>Should	not be employed	in	government	agencies</li>
+                  </ol><br>
+                  <p class="card-text fw-bold">Registration	for	guide	course</p><hr>
+                  <p class="card-text">Register	with	the	following	training	institutes:</p>
+                  <ol>
+                    <li>Bhutan	International	School	for	Hospitality	and	Tourism	(BISHT),	Taba,	Thimphu                            </li>
+                    <li>Institute	of	Management	Studies	(IMS),	Olakha,	Thimphu</li>
+                    <li>Institute	of	Professional	Studies	(IPS),	Opposite	to	Bhutan	Post,	Thimphu</li>
+                    <li>Bhutan	Institute	of	Information	Technologies	and Management,	Paro	Town</li>
+                  </ol>
+                </div>
+            </div><br>
 
 
+            <div class="card" style="margin-left: 20px; margin-right: 20px; background-color: rgb(220, 249, 224);">
+                <h5 class="card-header">Guidelines for the Management of Domestic Tourism 2020</h5>
+                <div class="card-body">
+                  <p class="card-text fw-bold">Tourism Council of Bhutan</p><hr>
+                  <p class="card-text">The Tourism Council of Bhutan shall: </p>
+                  <ol>
+                    <li>Lead in implementing the provisions of the guidelines in
+                        coordination with relevant agencies;</li>
+                    <li>Create awareness on the guidelines through relevant
+                        agencies;</li>
+                    <li>Monitor service providers, domestic tourists and attraction
+                        sites in coordination with relevant stakeholders;</li>
+                    <li>Review and amend these guidelines as and when required; and</li>
+                    <li>Receive and resolve complaints related to the conduct of
+                        domestic tourism activities in consultation with relevant
+                        stakeholders.</li>
+                  </ol><br>
+                  <p class="card-text fw-bold">Requirements</p><hr>
+                  <p class="card-text">In the case of package tour, the following components, agreed
+                    between service providers and domestic tourists, shall be
+                    included in part or in whole but not limited to:</p>
+                    <ol>
+                        <li>Tour activities;</li>
+                        <li>Duration of visit;</li>
+                        <li>Accommodation plan;</li>
+                        <li>Guide services;</li>
+                        <li>Transportation including domestic flights and helicopter
+                            services;</li>
+                        <li>Trekking haulage;</li>
+                        <li>Meal plan;</li>
+                        <li>Total price of the package; </li>
+                        <li>Cancellation and refund policy; and</li>
+                        <li>Cost in case of emergency evacuation.</li>
+                    </ol>
+                    <br>
+                  <p class="card-text fw-bold">Guide Services</p><hr>
+                  <p class="card-text">If the tour package includes guide services, service providers shall:</p>
+                    <ol>
+                        <li>Provide details of the guide to the domestic tourists prior to
+                            departure;</li>
+                        <li>Ensure the guide communicates in the language understandable
+                            to domestic tourists;</li>
+                        <li>Ensure the guide provides information regarding safety
+                            measures to domestic tourists; and</li>
+                        <li>Ensure the guide has knowledge and experience of sites
+                            identified in the package.</li>
+                    </ol>
+                </div>
+            </div><br>
 
 
+            <div class="card" style="margin-left: 20px; margin-right: 20px; background-color: rgb(220, 249, 224);">
+                <section class="text-center" style="margin-left: 40px; margin-right: 40px;"><br>
+
+                    <h3 class="mb-5">Contact us</h3>
+                  
+                    <div class="row">
+                      <!-- <div class="col-lg-5">
+                        <iframe
+                          src="https://maps.google.com/maps?width=100&amp;height=100&amp;hl=en&amp;q=tourism council of bhutan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                          class="h-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div> -->
+
+                    <div class="mapouter col-lg-5">
+                        <div class="gmap_canvas ">
+                            <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=tourism council of bhutan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            <a href="https://formatjson.org/">format json</a>
+                        </div>
+                        <style>.mapouter{position:relative;text-align:right;width:100%;height:400px;margin-bottom: 50px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style>
+                    </div>
+
+
+                  
+                      <div class="col-lg-12">
+                        <form>
+                          <div class="row">
+                            <div class="col-md-9">
+                              <div class="row mb-4">
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                  <div class="form-outline">
+                                    <input type="text" id="form3Example1" class="form-control" />
+                                    <label class="form-label" for="form3Example1">First name</label>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-outline">
+                                    <input type="email" id="form3Example2" class="form-control" />
+                                    <label class="form-label" for="form3Example2">Email Address</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-outline mb-4">
+                                <input type="text" id="form3Example3" class="form-control" />
+                                <label class="form-label" for="form3Example3">Subject</label>
+                              </div>
+                              <div class="form-outline mb-4">
+                                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                                <label class="form-label" for="form4Example3">Message</label>
+                              </div>
+                              <div class="text-center text-md-start">
+                                <button type="submit" class="btn btn-primary mb-5 mb-md-0" >
+                                Send
+                                </button>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <ul class="list-unstyled">
+                                <li>
+                                  <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                                  <p><small>Babesa, Thimphu, Bhutan</small></p>
+                                </li>
+                                <li>
+                                  <i class="fas fa-phone fa-2x text-primary"></i>
+                                  <p><small>+975 77345676</small></p>
+                                </li>
+                                <li>
+                                  <i class="fas fa-envelope fa-2x text-primary"></i>
+                                  <p><small>bhutantravellight@gmail.com</small></p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </form>
+
+                      </div>
+                    </div>                 
+                  </section>
+                  <br><br><br>
+            </div><br>
+           
 
 
 

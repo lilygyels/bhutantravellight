@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: beige;
+    
+}
+.certificate {
+    /* border: solid rgb(196, 190, 190); */
+    box-shadow: 5px 10px 10px 10px #8888;
+    justify-content: center;
+    border: 1px solid rgb(238, 228, 228);
+    width: 50rem;
+    margin-left: 25rem;
+    color: whitesmoke;
+}
+.logo{
+    padding-left: 18rem;
+    
+}
+.logo > img{
+    border-radius: 50%;
+}
+.heading1{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+.content{
+    text-align: center;
+     font-family: Great Vibes;
+    font-size: 33px;
+
+}
+.name{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:200;
+}
+.G2{
+    text-align: center;
+    
+    }
+.name2{
+    text-align: center;
+    font-family: "Lucida";
+    font-weight: bold;
+}
+.grade{
+    text-align: center;
+}
+.content1{
+    text-align: center;
+   
+}
+.SIGN > img {
+    height: 200px;
+    object-fit: contain;
+    margin-left: 120px;
+}
+.ceo{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    .certificate{
+        padding:0px;
+        margin:0px;
+    }
+}

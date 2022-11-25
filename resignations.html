@@ -11,6 +11,7 @@
     <!-- Style links -->
     <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resignation.css">
     <title>Bhuan Travel Light</title>
 </head>
 
@@ -64,7 +65,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
-                    <h2 class="fs-2 m-0">Profile</h2>
+                    <h2 class="fs-2 m-0">Resignation Form</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,6 +73,9 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+
+                
 
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -105,6 +109,9 @@
                     </ul>
                 </div>
 
+
+                
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
@@ -133,38 +140,90 @@
                 </div>
             </nav>
 
+            
 
-            <section class="main-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden " style="margin-top: -100px; background-color: rgb(220, 249, 224); margin-left:150px; margin-right:150px;">
-                                    <div class="banner"></div>
-                                    <h5 class="card-title text-center mb-3">Personal Details</h5>
-                                    <img src="profile.png" alt="" class="img-circle mx-auto mb-4"><hr>
-                                    <p class="card-text"><i class="fw-bold">Name:</i> Sonam Tshering</p>
-                                    <p class="card-text"><i class="fw-bold">DoB:</i> 10.05.1995</p>
-                                    <p class="card-text"><i class="fw-bold">Gender:</i> Male</p>
-                                    <p class="card-text"><i class="fw-bold">CID:</i> 11410007977</p>
-                                    <p class="card-text"><i class="fw-bold">Permanent Address:</i> Thimphu</p>
-                                    <p class="card-text"><i class="fw-bold">Email:</i> sonamtshering@gmail.com</p>
-                                    <p class="card-text"><i class="fw-bold">Phone Number:</i> 77898990</p>
-                                    <p class="card-text"><i class="fw-bold">Enrollment Year:</i> 2018</p>
-                                    <p class="card-text"><i class="fw-bold">Tourism Agency:</i> Gaki Tours and Travels</p>
-                                    <p class="card-text"><i class="fw-bold">Introduction:</i> "Welcome, everyone. Thank you for joining me today for my meet and greet. My name is Sonam Thinley and I'm the new marketing manager. Today I would like to take some time to introduce myself. I'm a Boston native and avid cycler. I also have over 10 years of experience in the marketing industry, focusing primarily on social media campaigns for rising tech companies. I believe marketing is only as great as the team working on the strategies and that's why I look forward to collaborating with you."
-                                        "My name is Sonam Thinley, and I'm the marketing director at Wise Technology. We're developing some innovative marketing campaigns designed to engage new customers right in the streets of Bloomington. I've been recruiting local businesses that want to get involved in these activities. I love chatting with residents around the area and learning more about what they're looking for from their smart devices." 
-                                        "Good afternoon. My name is Calob Cor and I'm the VP of Administration and Finance at Northern Investing. I've always been passionate about finding smart ways to save money. I believe establishing money management strategies as early as possible is the key to securing your future. I began using these strategies myself as I worked through college, and I now have over $10 million in my retirement fund. That amount is growing every day, and I'm here to teach you how to set up an account like that, too."</p>
-                                    <p class="card-text"><i class="fw-bold">Status:</i> Active</p>
-                                    <a href="#" class="btn btn-dark" style="margin-left: 150px; margin-right:150px;">Download & Print</a>
-                                </div>
-                            </div>
-                        </div>            
+            <form>
+                <div class="mt-5 container">
+                    <div class="d-flex justify-content-center heading">
+                    <h1>Employee Resignation Request</h1>
                     </div>
-            </section>
+                    <div class=" d-flex justify-content-center heading2">
+                        <h2>Employee information</h2>
+                    </div>
+                   
+                <div class="user ID  mt-5 mb-3">
+                    <label>User-ID:</label>
+                    <input 
+                    type="number"
+                    id="userid"
+                    placeholder="00-00-000" required>
+                </div>
+          
+                <div class="Guide_Name mb-3 col-6">
+                    <label>Name:</label>
+                    <input 
+                    type="text"
+                    id="name"
+                    placeholder="Guide Name">
+                </div>
+            
+                <div class="Employee's Email  mb-3">
+                    <label>Employee's Email:</label>
+                    <input 
+                    type="text"
+                    id="name"
+                    placeholder="username@gamil.com">
+                </div>
+           
+                <div class="Employee's Department mb-2">
+                    <br>
+                    <label for="Department">Employee Department:</label>
+                        <select name="department" id="dept">
+                            <option value="boss">Mangement</option>
+                            <option value="Guide" >Tourist Guide</option>
+                            <option vALUE="SUPPORTING STAFF">Finance</option>
+                    </select>
+                </div>
+                <div class="row mb-4">
+                <div class="date1 col-6 ">
+                    <label for="date">Joined Date:</label>
+                    <input 
+                    type="date"
+                    placeholder="mm/dd/yy">
+                </div>
+                <div class="date2 col-6" >
+                    <label for="date">Requested Date:</label>
+                    <input
+                    type="date"
+                    placeholder="mm/dd/yy">
+                </div>
+            </div>
+                <div class="date3= mb-3">
+                    <label for="date">Last Offical Date:</label>
+                    <input
+                    type="date"
+                    placeholder="mm/dd/yy">
+                </div>
+                <div class=" row reason ms-auto" style="margin-right: 20px;">
+                    <label>Please specify the reason of resignation:</label>
+                   <textarea name="" id="reason" cols="26" rows="4" class="ms-auto" style="margin-left:40px ;"></textarea>
+                <div class="feedback row mt-5">
+                    <h2>Manager's Feedback</h2>
+                    <label>Note:</label>
+                    <textarea name="" id="feedback" cols="30" rows="5"></textarea>
+                    <div class="button d-flex justify-content-right form-action-buttons mt-5 mb-4">
+                        <button class="submit" style='margin-right:16px' type="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Reset</button>
+                        
+                    </div>
+                </div>
+            </form>
+
+
         </div>
     </div>
     <!-- /#page-content-wrapper -->
-    </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
     <script>

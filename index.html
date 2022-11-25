@@ -17,42 +17,46 @@
 <body>
     <div class="d-flex" id="wrapper">
         <!-- Sidebar -->
-            <div class="bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading text-center py-6 primary-text fs-14 fw-bold text-uppercase border-bottom"><i
-                        class="fas fa-globe fa-2x"></i><br> Bhutan <i style="color:#FFC857;font-family:cursive;">Travel</i> Light</div>
+        <div class="bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-6 primary-text fs-14 fw-bold text-uppercase border-bottom"><i
+                    class="fas fa-globe fa-2x"></i><br> Bhutan <i style="color:#FFC857;font-family:cursive;">Travel</i> Light</div>
 
-                <div class="dropdown list-group list-group-flush my-3">
-                    <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text active" type="button" data-bs-toggle="dropdown"><i
-                        class="fas fa-home fa-4x' style='color:#000000'" ></i >
-                        Home</button>
-                    <ul class="dropdown-menu border border-warning">
-                        <li><button class="dropdown-item" type="button">Dashboard</button></li>
-                    </ul>
+            <div class="dropdown list-group list-group-flush my-3">
+                <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text active" type="button" data-bs-toggle="dropdown"><i
+                    class="fas fa-home fa-4x' style='color:#000000'" ></i >
+                    <a style="text-decoration:none ; color:black;" href="index.html" >Home</a>
+                    </button>
+                <ul class="dropdown-menu border border-warning">
+                    <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;"  href="index.html">Dashboard</a></button></li>
+                </ul>
 
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-user-tie"></i> Profile</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-user"></i> Human Resources & Help</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-book-reader"></i> Rules & Regulations</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-th-list"></i> Inventory & Property</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                        class="fas fa-bell"></i> Notifications & Calendar</a>
+                <a href="profile.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                    class="fas fa-user-tie"></i> Profile</a>
+                    <a href="publications.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas fa-book"></i> Publications</a>
+                <a href="help.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                    class="fas fa-user"></i> Human Resources & Help</a>
+                <a href="rules.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                    class="fas fa-book-reader"></i> Rules & Regulations</a>
+                <a href="inventory.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                    class="fas fa-th-list"></i> Inventory & Property</a>
+                <a href="calendar.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                    class="fas fa-bell"></i> Calendar</a>
 
-                    <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text fw-bold" type="button" data-bs-toggle="dropdown"><i
-                        class="fas fa-star"></i>
-                        Services</button>
-                    <ul class="dropdown-menu">
-                        <li><button class="dropdown-item" type="button">Staff Task & Tour</button></li>
-                        <li><button class="dropdown-item" type="button">Leave Application Form</button></li>
-                        <li><button class="dropdown-item" type="button">Promotion & Resignation</button></li>
-                    </ul>
+                <button class="btn btn-secondary dropdown-toggle list-group-item list-group-item-action bg-transparent second-text fw-bold" type="button" data-bs-toggle="dropdown"><i
+                    class="fas fa-star"></i>
+                    Services</button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="task1.html">Staff Task & Tour</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="leave.html">Leave Application Form</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="resignations.html">Resignation</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a style="text-decoration:none ; color:black;" href="promotion.html">Promotion</a></button></li>
+                </ul>
 
-                    <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
-                            class="fas fa-power-off me-2"></i>Logout</a>
-                </div>
+                <a href="/login/logout.html" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
+                        class="fas fa-power-off me-2"></i>Logout</a>
             </div>
+        </div>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
@@ -69,6 +73,44 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+
+                
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0" >
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-duotone fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">February 10, 2020</div>
+                                    <span class="fw-none">Registration for training workshop on biodiversity, Biopiracy and its relevance to Tourism</a></li>
+                                        <hr class="divider">
+                                <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">April 06, 2021</div>
+                                    <span class="fw-none">Tourist Guide readiness assessment test - Phase III </a>
+                                </li>
+                                <hr class="divider">
+                                <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">December 18, 2022</div>
+                                    <span class="fw-none">Third Phase of Tour Guide Assessment Test</a>
+                                </li>
+                                <hr class="divider">
+                                <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">March 06, 2022</div>
+                                    <span class="fw-none">Re-readiness assessment test for Phase II guide</a>
+                                </li>
+                                <hr class="divider">
+                                <li><a class="dropdown-item fw-bold" href="#"><div class="small text-gray-500 fw-0">June 30, 2022</div>
+                                    <span class="fw-none">Notification on violiation of TCB certified accomodations phase III</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
@@ -77,17 +119,17 @@
                                 <i class="fas fa-user me-2"></i>Sonam Thinley
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Profile</a>
+                                <li><a class="dropdown-item" href="profile.html">Profile</a>
 
-                                <li><a class="dropdown-item" href="#">Change Password
+                                <li><a class="dropdown-item" href="/login/changepsswd.html">Change Password
                                     <i class="fas fa-sync"></i></a></li>
                                 </a></li>
 
-                                <li><a class="dropdown-item" href="#">Help
+                                <li><a class="dropdown-item" href="help.html">Help
                                     <i class="fas fa-question-circle"></i></a></li>
                                 </a></li>
 
-                                <li><a class="dropdown-item" href="#">Logout
+                                <li><a class="dropdown-item" href="/login/logout.html">Logout
                                     <i class="fas fa-sign-out-alt"></i></a></li>
 
                                 </a></li>
@@ -103,8 +145,8 @@
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
                                 <h3 class="fs-2">Event</h3>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Notifications    <i class="fas fa-arrow-right"></i></a><br>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Calendar    <i class="fas fa-arrow-right"></i></a>
+                                <a href="task1.html" class="fs-6 fw-bold text-decoration-none text-dark">Staff Task & Tour<i class="fas fa-arrow-right"></i></a><br>
+                                <a href="calendar.html" class="fs-6 fw-bold text-decoration-none text-dark">Calendar <i class="fas fa-arrow-right"></i></a><br>
                             </div>
                             <i class="fas fa-bell fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
@@ -114,8 +156,8 @@
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
                                 <h3 class="fs-2">Services</h3>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Staff Task & Tour <i class="fas fa-arrow-right"></i></a><br>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Promotion & Resignation <i class="fas fa-arrow-right"></i></a><br>
+                                <a href="promotion.html" class="fs-6 fw-bold text-decoration-none text-dark">Promotion<i class="fas fa-arrow-right"></i></a><br>
+                                <a href="resignations.html" class="fs-6 fw-bold text-decoration-none text-dark">Resignation <i class="fas fa-arrow-right"></i></a><br>
                             </div>
                             <i
                                 class="fas fa-star fs-1 primary-text border rounded-full secondary-bg p-3"></i>
@@ -126,7 +168,8 @@
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
                                 <h3 class="fs-2">Leave Management</h3>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Apply for Leave    <i class="fas fa-arrow-right"></i></a><br>                            </div>
+                                <a href="leave.html" class="fs-6 fw-bold text-decoration-none text-dark">Apply for Leave<i class="fas fa-arrow-right"></i></a><br>
+                                <a href="leaveapplied.html" class="fs-6 fw-bold text-decoration-none text-dark">Leave Applied<i class="fas fa-arrow-right"></i></a><br>                            </div>
                             <i class="fas fa-envelope fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
                     </div>
@@ -135,23 +178,25 @@
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
                                 <h3 class="fs-2">About</h3>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Inventory & Property    <i class="fas fa-arrow-right"></i></a><br>
-                                <a href="#" class="fs-6 fw-bold text-decoration-none text-dark">Rules & Regulations    <i class="fas fa-arrow-right"></i></a><br>
+                                <a href="inventory.html" class="fs-6 fw-bold text-decoration-none text-dark">Inventory & Property<i class="fas fa-arrow-right"></i></a><br>
+                                <a href="rules.html" class="fs-6 fw-bold text-decoration-none text-dark">Rules & Regulations<i class="fas fa-arrow-right"></i></a><br>
+                                <a href="publications.html" class="fs-6 fw-bold text-decoration-none text-dark">Publications <i class="fas fa-arrow-right"></i></a>
+
                             </div>
                             <i class="fas fa-user fs-1 primary-text border rounded-full secondary-bg p-3"></i>
                         </div>
                     </div>
                 </div>
 
-                <section class="main-content ">
-                    <div class="container">
-                        <h3 class="text-center">Profile</h3>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden">
+                <section class="main-content " >
+                    <div class="container" >
+                        <h3 class="text-center mb-4" style="margin-top: -40px; color:white;">Profile</h3>
+                        <div class="row" >
+                            <div class="col-lg-12" >
+                                <div class="profile-card card rounded-lg shadow p-4 p-xl-5 mb-4 text-center position-relative overflow-hidden" style="background-color: rgb(215, 242, 216);">
                                     <div class="banner"></div>
-                                    <img src="profile.png" alt="" class="img-circle mx-auto mb-3">
-                                    <h3 class="mb-2">Name: Sonam Tshering</h3>
+                                    <img src="profile.png" alt="" class="img-circle mx-auto mb-3" style="height: auto; border-radius: 15px;">
+                                    <h3 class="mb-2">Name: Sonam Thinley</h3>
                                     <p class="mb-2"><i class="fw-bold">CID:</i> 11410007977</p>
                                     <p class="mb-2"><i class="fw-bold">Permanent Address:</i>  Thimphu</p>
                                     <p class="mb-2"><i class="fw-bold">Tourism Agency:</i>  Gaki Tour and Travels</p>
@@ -163,7 +208,7 @@
                                         <p class="mb-2"><i class="fa fa-map-marker-alt mr-2"></i>Thimphu, Bhutan</p>
                                     </div>
 
-                                    <button type="button" class="btn btn-dark mx-5">See More  <i class="fas fa-arrow-right"></i></button>
+                                    <button type="button" class="btn btn-dark mx-5"><a  style="text-decoration:none ; color:rgb(251, 247, 247);" href="profile.html">  See More  </a><i class="fas fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>            
@@ -171,12 +216,12 @@
                 </section>
 
                 <div class="row">
-                    <h3 class="fs-4 text-center">Travel Logs</h3>
+                    <h3 class="fs-4 text-center mb-4" style="margin-top:-50px;">Travel Logs</h3>
                     <div class="col">
-                        <table class="table bg-white rounded shadow-sm  table-hover">
+                        <table class="table bg-white rounded shadow-sm  table-hover" >
                             <thead>
                                 <tr>
-                                    <th scope="col" width="50">#</th>
+                                    <th scope="col" width="50">Sl.No</th>
                                     <th scope="col">Place</th>
                                     <th scope="col">No of Tourists</th>
                                     <th scope="col">Date</th>

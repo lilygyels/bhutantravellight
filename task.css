@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+::selection{
+  color: #ffff;
+  background: #a9b2ac;
+}
+body{
+  width: 100%;
+  height: 10vh;;
+  /* overflow: hidden; */
+  padding: 0px;
+  background: #DEF2C8;
+}
+
+.wrapper{ 
+  background: #C5DAC1;
+  max-width: 90rem;
+  width: 100%;
+  height: 30rem;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+}
+.wrapper .inputField{
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  height: 45px;
+  
+}
+.inputField input{
+  width: 85%;
+  height: 100%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ade3a2;
+  font-size: 17px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+.inputField input:focus{
+  border-color: #898980;
+}
+.inputField button{
+  width: 50px;
+  height: 100%;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 21px;
+  outline: none;
+  background: #122e20;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.inputField button:hover,
+.footer button:hover{
+  background: #266141;
+}
+.inputField button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+.wrapper .todoList{
+  max-height: 250px;
+  overflow-y: auto;
+}
+.todoList li{
+  position: relative;
+  list-style: none;
+  margin-bottom: 8px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: default;
+  overflow: hidden;
+  word-wrap: break-word;
+ 
+}
+.todoList li .icon{
+  position: absolute;
+  right: -45px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #cb8f88;
+  width: 45px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.todoList li:hover .icon{
+  right: 0px;
+  
+}
+.wrapper .footer{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer button{
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+  background: #898980;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.footer button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+/* Wrapper */
+.wrapper1{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: var(--wrapper-background-c);
+    box-shadow: 0 0 80px var(--wrapper-shadow-c);
+  }
+  
+  /* Images Area */
+  .images-area{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+  .images-area img{
+    width: 100%;
+    transition: 0.3s cubic-bezier(.79,.03,0,.99);
+  }
+  
+  /* Buttons Area  */
+  .buttons-area{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .buttons-area > div{
+    color: var(--white-c);
+    background-color: var(--buttons-background-c);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  /* Buttons | Previous And Next */
+  .buttons-area > div:first-child{
+    border-radius: 0 5px 5px 0;
+    margin-left: -100px;
+  }
+  .buttons-area > div:last-child{
+    border-radius: 5px 0 0 5px;
+    margin-right: -100px;
+  }
+  /* Show The Buttons */
+  .wrapper1:hover .buttons-area > div:first-child{
+    margin-left: 0;
+  }
+  .wrapper1:hover .buttons-area > div:last-child{
+    margin-right: 0;
+  }
+  .buttons-area div:hover:not(div.disabled){
+    background-color: var(--buttons-active-background-c);
+  }
+  .buttons-area div:not(div.disabled):active{
+    opacity: 0.7;
+  }
+  /* Disabled Button */
+  .buttons-area > div.disabled{
+    cursor: no-drop;
+    opacity: 0.3;
+  }
+  .buttons-area div i{
+    font-size: 70px;
+  }
+  
+  /* Pagination Area */
+  .pagination-area{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  /* Pagination Spans */
+  .pagination-area span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--white-c);
+    margin-right: 5px;
+    transform: scale(0.5);
+    transition: 0.3s ease-in-out;
+    opacity: 0.4;
+  }
+  /* Current Active Span */
+  .pagination-area span.active{
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  /* End Wrapper */

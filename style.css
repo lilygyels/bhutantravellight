@@ -1,8 +1,8 @@
 :root {
-    --main-bg-color: #F49D6E;
+    --main-bg-color: #57c34f;
     --main-text-color: #312f2d;
-    --second-text-color: #aa842c;
-    --second-bg-color: #e0d34a;
+    --second-text-color: #2fb96d;
+    --second-bg-color: #5fcea3;
   }
   
   .primary-text {
@@ -27,8 +27,7 @@
   
   #wrapper {
     overflow-x: hidden;
-    background: linear-gradient(90deg, hsla(331, 58%, 60%, 1) 0%, hsla(23, 68%, 67%, 1) 45%, hsla(69, 80%, 76%, 1) 100%);
-  }
+    background: radial-gradient(circle, hsla(164, 38%, 18%, 1) 0%, hsla(158, 77%, 77%, 1) 100%);    }
   
   #sidebar-wrapper {
     min-height: 100vh;
